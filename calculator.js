@@ -8,7 +8,7 @@ function multiply(number1,number2){
     return number1*number2;
 }
 function divide(number1,number2){
-    return number1*number2;
+    return number1/number2;
 }
 document.getElementById('add').addEventListener("click",function() {
     const number1=parsefloat(document.getElementById('number1').value)||0;
